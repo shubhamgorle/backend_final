@@ -5,7 +5,7 @@ const cors = require('cors');
 const newDataRoute = require("./routes/newDataRoute.js")
 const rDataRoute = require("./routes/rDataRoutes.js")
 app.use(cors({
-    origin: 'http://localhost:3000'
+    origin: 'https://serene-pastelito-f692d3.netlify.app'
 }));
 app.use(express.json())
 dotenv.config({path:"backend/config/config.env"});
